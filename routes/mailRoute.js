@@ -3,4 +3,4 @@ import { contactForm } from "../controllers/mailController.js";
 
 export const mailRouter = Router();
 
-mailRouter.post("/api/contact", contactForm);
+mailRouter.post("/contact", contactForm);
