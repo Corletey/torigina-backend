@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const healthCheckUrl = "https://torigina.onrender.com/api/v1/health";
+const healthCheckUrl = "https://torigina-backend.onrender.com/api/v1/health";
 
 export const restartServer = async () => {
   try {
